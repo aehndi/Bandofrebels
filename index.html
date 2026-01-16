@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band of Rebels / Academy Name Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Band of Rebels / Academy</h1>
+        <p>Select banner and enter player name.</p>
+        <select id="bannerType">
+            <option value="rebels">Band of Rebels</option>
+            <option value="academy">Academy</option>
+        </select>
+        <input type="text" id="playerName" placeholder="Player Name" maxlength="20">
+        <button onclick="generateBanner()">Generate Banner</button>
+        <canvas id="bannerCanvas" width="600" height="400" style="display: none;"></canvas>
+        <a id="downloadLink" style="display: none;">Download Banner</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
