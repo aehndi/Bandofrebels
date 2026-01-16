@@ -12,14 +12,14 @@
 <body>
     <div class="container">
         <h1>Band of Rebels / Academy</h1>
-        <p>Select banner and enter player name.</p>
-        <select id="bannerType">
+        <p>Live preview: Type name and select banner to see changes.</p>
+        <select id="bannerType" onchange="updatePreview()">
             <option value="rebels">Band of Rebels</option>
             <option value="academy">Academy</option>
         </select>
-        <input type="text" id="playerName" placeholder="Player Name" maxlength="20">
-        <button onclick="generateBanner()">Generate Banner</button>
-        <canvas id="bannerCanvas" width="600" height="400" style="display: none;"></canvas>
+        <input type="text" id="playerName" placeholder="Player Name" maxlength="20" oninput="updatePreview()">
+        <button onclick="generateBanner()">Download PNG</button>
+        <canvas id="bannerCanvas" width="600" height="400"></canvas>
         <a id="downloadLink" style="display: none;">Download Banner</a>
     </div>
     <script src="script.js"></script>
