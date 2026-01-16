@@ -51,5 +51,5 @@ function generateBanner() {
         downloadLink.textContent = 'Download Banner';
         downloadLink.style.display = 'inline-block';
     };
-    img.src = `${bannerType}.jpg`;
+    img.src = `${bannerType}.png`;
 }
