@@ -1,4 +1,4 @@
-# 🎮 #1692 Band of Rebels / BAR2cademy Banner Generator
+# 🎮 #1692 Bands of Rebels / BAR2cademy Banner Generator
 
 **Personalisiere Banner für deine Allianz!** Name eingeben → Live Preview → PNG Download.
 
@@ -31,7 +31,7 @@ text
 ├── index.html # App\
 ├── style.css # Steampunk Design\
 ├── script.js # Canvas + Auto-Fit\
-├── rebels.png # Band of Rebels Banner\
+├── rebels.png # Bands of Rebels Banner\
 └── academy.png # Academy Banner
 
 text
