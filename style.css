@@ -1,0 +1,82 @@
+body {
+    font-family: 'Orbitron', monospace;
+    background: linear-gradient(135deg, #2c1810, #4a2c1a);
+    color: #ffd700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255,215,0,0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    background: linear-gradient(45deg, #ffd700, #ffed4e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+input {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 0.8rem;
+    width: 250px;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.1);
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input::placeholder {
+    color: rgba(255,215,0,0.5);
+}
+
+button {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 0.8rem 2rem;
+    background: linear-gradient(45deg, #ffd700, #ffed4e);
+    color: #2c1810;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#bannerCanvas {
+    border: 3px solid #ffd700;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 0 0 30px rgba(255,215,0,0.5);
+}
+
+#downloadLink {
+    display: inline-block;
+    margin-top: 1rem;
+    font-family: 'Orbitron', monospace;
+    font-weight: 900;
+    color: #ffd700;
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    background: rgba(255,215,0,0.2);
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+}
