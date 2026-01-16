@@ -80,3 +80,25 @@ button:hover {
     border: 2px solid #ffd700;
     border-radius: 5px;
 }
+
+/* Previous style.css, plus: */
+select {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 0.8rem;
+    border: 2px solid #ffd700;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.1);
+    color: #ffd700;
+    margin-bottom: 1rem;
+}
+
+#bannerCanvas {
+    border: 3px solid #ffd700;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 0 0 30px rgba(255,215,0,0.5);
+    max-width: 100%;
+    height: auto;
+}
